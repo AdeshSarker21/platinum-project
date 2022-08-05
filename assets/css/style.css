@@ -1,0 +1,193 @@
+/*============
+font-family: 'Montserrat', sans-serif;
+=============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*=========================================*/
+/*============Start Header Section===========*/
+/*=========================================*/
+.mainHeaderArea {
+    padding: 60px 0px;
+    position: relative;
+    z-index: 9999999999;
+}
+
+.mainLogoArea {}
+
+.maniNavBarArea {}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar .menuList {
+    padding: 7px;
+}
+
+.navBar .menuList .menuItem {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mainSocilaMedia {}
+
+.mainSocilaMedia .socilaMediaIcon {
+    padding: 7px;
+}
+
+.menuList {}
+
+.navBar .menuList .vipButton {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.pcHeader {}
+
+.responsive_header {
+    display: none;
+}
+
+/*=========================================*/
+/*============End Header Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Body Section============*/
+/*=========================================*/
+.connectButtonArea {
+    text-align: center;
+    padding: 190px 0px 150px;
+    position: relative;
+    z-index: 9999999;
+}
+
+.connectButtonArea .connectButton {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.joinOurDiscordButtonArea {
+    text-align: center;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 9999999;
+}
+
+.joinOurDiscordButtonArea .joinOurDiscordButton {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.mainBodySocialMedaiIconArea {
+    pointer-events: 90px 0px 40px;
+    position: relative;
+    z-index: 9999999;
+}
+
+.bodySocialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodySocialMedia .bodySocilaMediaList {
+    padding: 7px;
+}
+
+.bodySocialMedia .bodySocilaMediaList .bodySocilaMediaIcon {
+    display: inline-block;
+    padding: 10px;
+}
+
+/*=========================================*/
+/*==========End Body Section============*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Footer Section============*/
+/*=========================================*/
+.mainFooterArea {
+    position: relative;
+    z-index: 9999999;
+}
+
+.copyrightArea {
+    text-align: center;
+    border-top: 2px solid #fff;
+}
+
+.copyrightArea .copyrightText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+/*=========================================*/
+/*==========End Body Section============*/
+/*=========================================*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
